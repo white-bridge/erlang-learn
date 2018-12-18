@@ -11,7 +11,7 @@
 -author("zhanmei").
 
 %% API
--export([start_link/0,get_count/0,stop/0]).
+-export([start_link/0,get_count/0,stop/0,start_link/1]).
 
 %% gen_server callbacks
 -export([init/1,handle_call/3,handle_info/2,handle_cast/2,code_change/3,terminate/2]).
